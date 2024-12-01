@@ -449,3 +449,331 @@ print (True and True)
 
 Cuando se ejecuta este programa, se muestran los resultados de diferentes combinaciones de valores booleanos usando las compuertas lógicas "OR" y "AND".
 
+```
+Ejercicio 1 Compuerta NOT
+# Programa 1 Demuestre el funcionamiento compuerta NOT 
+# Fecha: 2024/10/22
+# Elaborado por: Jazmin Macias Sabas 
+print (not True)  # Imprime False 
+print (not False) # Imprime True 
+```
+4. *"print(not True)  # Imprime False"*:
+
+   Esta línea imprime el resultado de la expresión not True, que es False. La compuerta NOT invierte el valor True a False.
+
+5. *"print(not False) # Imprime True"*:
+
+   Aquí se imprime el resultado de la expresión not False, que es True. La compuerta NOT invierte el valor False a True.
+
+Cuando se ejecuta este programa, se muestran los resultados de las expresiones utilizando la compuerta lógica NOT, demostrando su funcionamiento al invertir valores booleanos.
+
+```
+Ejercicio 2 Programa que si Chorchis o Choto van a la fiesta, no hay fiesta 
+# Programa 2 Programa que si Chorchis o Choto van a la fiesta 
+# Fecha: 2024/10/22
+# Elaborado por: Jazmin Macias Sabas 
+
+#/ A / B // NOT (A or B) /
+#/ 0 / 0 // 1
+#/ 0 / 1 // 0
+#/ 1 / 0 // 0
+#/ 1 / 1 // 0 
+
+print(not(False or False)) # Si hay fiesta 
+print(not(False or True))  # No hay fiesta 
+print(not(True or False))  # No hay fiesta 
+print(not(True or True))   # No hay fiesta 
+```
+
+4. *"#/ A / B // NOT (A or B) /"*:
+
+   Estas líneas son comentarios que representan una tabla de verdad de la función lógica NOT(A or B).
+
+5. *"print(not(False or False)) # Si hay fiesta"*:
+
+   Aquí se imprime el resultado de la expresión not(False or False), que es True. Como ni Chorchis ni Choto van a la fiesta (ambos valores son False), entonces sí hay fiesta.
+
+6. *"print(not(False or True))  # No hay fiesta"*:
+
+   Esta línea imprime el resultado de la expresión not(False or True), que es False. Como Chorchis no va a la fiesta pero Choto sí (valores False y True respectivamente), entonces no hay fiesta.
+
+7. *"print(not(True or False))  # No hay fiesta"*:
+
+   Aquí se imprime el resultado de la expresión not(True or False), que es False. Como Chorchis va a la fiesta pero Choto no (valores True y False respectivamente), entonces no hay fiesta.
+
+8. *"print(not(True or True))   # No hay fiesta"*:
+
+   Esta línea imprime el resultado de la expresión not(True or True), que es False. Como tanto Chorchis como Choto van a la fiesta (ambos valores son True), entonces no hay fiesta.
+
+Cuando se ejecuta este programa, se muestran los resultados de las expresiones utilizando las compuertas lógicas NOT y OR, que representan la situación de que si Chorchis o Choto van a la fiesta, entonces no hay fiesta.
+
+
+```
+Ejercicio 3 Funcionamiento de adicción y concatenación de varias variables 
+# Programa 3 Programa que comprueba el funcionamiento de la adición o concatenación  
+# CONCATENACIÓN de varias cadenas de texto 
+# Fecha: 2024/10/22
+# Elaborado por: Jazmin Macias Sabas 
+print ("Mi " + "nombre " + "es " + "Jazmin") 
+```
+5. *print("Mi " + "nombre " + "es " + "Jazmin")*:
+
+   Esta línea es donde ocurre la concatenación real. Utiliza el operador + para unir varias cadenas de texto. Cada cadena está separada por un espacio, y al ejecutarse, se combinan todas las partes en una sola cadena resultante.
+
+   - "Mi ": La primera cadena.
+   - "nombre ": La segunda cadena.
+   - "es ": La tercera cadena.
+   - "Jazmin": La cuarta cadena.
+
+   Al concatenar estas cadenas, el resultado final es la oración: *"Mi nombre es Jazmin"*. 
+
+Cuando se ejecuta este programa, imprime en la consola la frase completa resultante de la concatenación, mostrando cómo se pueden unir múltiples cadenas para formar un mensaje coherente. ¡Es una manera sencilla y efectiva de trabajar con texto en Python!
+
+```
+Ejercicio 4 Programa que calcula los impuestos de un valor
+# Programa 4 Calcular los impuestos y dar un valor 
+# Fecha: 2024/10/22
+# Elaborado por: Jazmin Macias Sabas 
+
+# Solicitamos que el usuario ingrese el valor y el porcentaje del impuesto
+valor = float(input("Ingrese el valor sobre sobre el cual quieres calcular los impuestos: "))
+porcentaje_impuesto = float(input("Ingrese el porcentaje de impuesto: "))
+
+# Calculamos el impuesto
+impuesto = (porcentaje_impuesto / 100) * valor
+
+# Calculamos el total a pagar
+total_a_pagar = valor + impuesto
+
+# Resultados
+print(f"El impuesto a pagar es: {impuesto:.2f}")
+print(f"El total a pagar, incluyendo impuestos, es: {total_a_pagar:.2f}")
+print("Gracias por usar nuestro sistema")
+```
+4. *"valor = float(input("Ingrese el valor sobre sobre el cual quieres calcular los impuestos: "))"*:
+
+   En esta línea, se solicita al usuario que ingrese un valor (valor original) sobre el cual se calcularán los impuestos. La función float() se utiliza para convertir la entrada del usuario en un número decimal.
+
+5. *"porcentaje_impuesto = float(input("Ingrese el porcentaje de impuesto: "))"*:
+
+   En esta línea, se solicita al usuario que ingrese el porcentaje de impuesto que se aplicará al valor original. También se utiliza la función float() para convertir la entrada del usuario en un número decimal.
+
+6. *"impuesto = (porcentaje_impuesto / 100) * valor"*:
+
+   Aquí se calcula el impuesto, multiplicando el valor original por el porcentaje de impuesto dividido por 100.
+
+7. *"total_a_pagar = valor + impuesto"*:
+
+   En esta línea, se calcula el total a pagar sumando el valor original y el impuesto calculado.
+
+8. *"print(f"El impuesto a pagar es: {impuesto:.2f}")"*:
+
+   Aquí se imprime el valor del impuesto calculado con 2 dígitos decimales.
+
+9. *"print(f"El total a pagar, incluyendo impuestos, es: {total_a_pagar:.2f}")"*:
+
+   En esta línea, se muestra el total a pagar con impuestos incluidos, también con 2 dígitos decimales.
+
+10. *"print("Gracias por usar nuestro sistema")"*:
+
+   Aquí se imprime un mensaje de agradecimiento al usuario por utilizar el programa.
+
+Cuando se ejecuta el programa, solicita al usuario los valores necesarios y calcula el impuesto y el total a pagar. Finalmente, muestra los resultados por pantalla.
+
+```
+Ejercicio 5 Comparación, membership, indexing, método de slicing  
+# Programa 5  Comparación
+# Fecha:2024/10/23
+# Elaborado por: Jazmin Macias Sabas 
+
+#Comparación:
+print ("perro" == "perro")
+print ("perro" != "gato")
+print ("Aguascalientes" < "Zacatecas")
+print ("Aire" >= "Agua")
+
+#Membership 
+#operador in 
+#revisa si la primer cadena está en la segunda
+print ("house" in "boathouse")
+print ("bien" in "bienvenidos")
+print ("y" not in "ejes")
+print ("je" not in "ejes")
+
+#Slicing (Rebanar) 
+#sirve para obtener un fragmento de una cadena dada. Si solo deseamos obtener un solo carácter, entonces usaremos la indexación 
+#Indexing (indexado) 
+mi_nombre = "Choto Chorchis"
+print (mi_nombre[3])
+print (mi_nombre[12])
+```
+*Comparación*:
+
+1. *print("perro" == "perro")*: Aquí se utiliza el operador de comparación == para comparar dos cadenas. Si son idénticas, la expresión devolverá True; en este caso, se imprime True porque ambas cadenas son "perro".
+
+2. *print("perro" != "gato")*: Este ejemplo utiliza el operador !=, que compara si dos cadenas son diferentes. En este caso, como "perro" y "gato" son distintos, se imprime True.
+
+3. *print("Aguascalientes" < "Zacatecas")*: Aquí se utiliza el operador < para comparar cadenas alfabéticamente. Si la primera cadena viene antes alfabéticamente que la segunda, la expresión devolverá True. En este ejemplo, como "Aguascalientes" alfabéticamente viene antes que "Zacatecas", se imprime True.
+
+4. *print("Aire" >= "Agua")*: Este ejemplo usa el operador >= para una comparación alfabética. Devolverá True si la primera cadena es alfabéticamente mayor o igual que la segunda. Como "Aire" alfabéticamente está después que "Agua", se imprime True.
+
+*Membership (Pertenencia)*:
+
+El operador in se utiliza para comprobar si una cadena aparece dentro de otra.
+
+1. *print("house" in "boathouse")*: Aquí se evalúa si la cadena "house" aparece en la cadena "boathouse". Como la cadena "house" sí está presente en "boathouse", la expresión devuelve True.
+
+2. *print("bien" in "bienvenidos")*: En este caso, la palabra "bien" sí forma parte de la palabra "bienvenidos", por lo que se imprime True.
+
+3. *print("y" not in "ejes")*: Aquí se utiliza la negación del operador in, buscando si la cadena "y" no está presente en la cadena "ejes". Como la letra "y" no está presente en "ejes", se imprime True.
+
+4. *print("je" not in "ejes")*: En este caso, se busca si la subcadena "je" no está presente en "ejes". Como "je" sí está presente en "ejes", la expresión es falsa, y se imprime False.
+
+*Indexing (Indexación)*:
+
+1. *mi_nombre = "Choto Chorchis"*: Se crea una variable llamada mi_nombre y se le asigna la cadena "Choto Chorchis".
+
+2. *print(mi_nombre[3])*: Aquí se utiliza la indexación para acceder al cuarto carácter de la cadena mi_nombre, ya que la indexación en Python empieza en 0. En este caso, se imprime la letra "t", que está en la posición 3 (cuarta letra).
+
+```
+Ejercicio 6 word = hamster
+# Programa 6 word = hamster
+# Fecha: 2024/10/23
+# Elaborado por: Jazmin Macias Sabas 
+word = "hamster"
+print (word[-1])
+print (word[1:-1])
+print (word[-3:])
+print (word[:3])
+```
+1. *word = "hamster"*: Se define una variable llamada word y se le asigna la cadena "hamster".
+
+2. *print(word[-1])*: Aquí se accede al último carácter de la cadena word mediante indexación negativa, donde -1 representa el último carácter. En este caso, se imprime la letra "r".
+
+3. *print(word[1:-1])*: Este ejemplo utiliza rebanado (slicing) para obtener una subcadena de word, empezando desde la posición 1 y terminando en la posición -1 (la penúltima letra). Esto imprime la subcadena "amste", excluyendo la primera y la última letra de la palabra original.
+
+4. *print(word[-3:])*: En este caso, se utiliza rebanado para obtener una subcadena que empieza desde la tercera última letra hasta el final de la palabra word. Se imprime la subcadena "ster".
+
+5. *print(word[:3])*: Aquí se obtiene una subcadena de word que va desde el inicio hasta la posición 2 (ya que la indexación empieza en 0), utilizando rebanado. Se imprime la subcadena "ham", que son las primeras tres letras de la palabra original.
+
+```
+Ejercicio 7 El bar”
+# Programa 7 Programa que solicite la edad e indique si puede entrar un bar
+# Fecha: 2024/10/24
+# Elaborado por: Jazmin Macias Sabas 
+edad = int(input("Ingresa tu edad: "))
+if edad >=18:print("Puede ingresar al bar")
+else:print("Vete a tu casa")
+print("Fin del programa")
+```
+1. *edad = int(input("Ingresa tu edad: "))*: Esta línea pide al usuario que ingrese su edad a través de la función input(). La función int() convierte la entrada del usuario en un número entero y lo almacena en la variable edad.
+
+2. *if edad >= 18:*: Esta es una sentencia condicional if que verifica si la edad ingresada es mayor o igual a 18. Si la condición se cumple, se ejecutará el bloque de código que está indentado justo debajo de esta línea.
+
+3. *print("Puede ingresar al bar")*: Si la edad es mayor o igual a 18, se imprimirá este mensaje informando al usuario que puede ingresar al bar.
+
+4. *else:*: Si la condición if anterior no se cumple (la edad es menor que 18), se ejecutará este bloque else.
+
+5. *print("Vete a tu casa")*: En caso de que la edad sea menor que 18, se imprimirá este mensaje indicando que no puede ingresar al bar.
+
+6. *print("Fin del programa")*: Este mensaje se imprimirá al final, independientemente de si la edad es mayor o menor que 18, indicando el final del programa.
+
+Este programa utiliza una estructura de control condicional (if-else) para determinar qué bloque de código ejecutar en función de la edad ingresada por el usuario.
+
+```
+Ejercicio 8 Calificaciones aprobó o reprobó
+# Programa 8 Programa que calcule el promedio de 5 unidades e indique si aprobó la materia 
+# Fecha: 2024/10/24
+# Elaborado por: Jazmin Macias Sabas 
+# Realizamos una lista para guardar las calificaciones
+unidades = []
+
+# Pedimos al usuario que ingrese las calificaciones de 5 unidades
+for i in range(5):
+    calificación = float(input("Ingresa la calificación de la unidad " + str(i + 1) + ": "))
+    unidades.append(calificación)  # Agregamos la calificación a la lista
+
+# Calculamos el promedio sumando todas las calificaciones y dividiendo por 5
+promedio = sum(unidades) / 5
+
+# Verificamos si el promedio es mayor o igual a 7
+if promedio >= 70:
+    print("Aprobaste la materia con un promedio de:", promedio)
+else:
+    print("Reprobaste la materia con un promedio de:", promedio)
+```
+1. *unidades = []*: Esta línea inicializa una lista vacía llamada unidades que se utilizará para almacenar las calificaciones de cada unidad.
+
+2. *for i in range(5):*: Se utiliza un bucle for para recorrer cinco iteraciones, ya que hay cinco unidades en total.
+
+3. *calificación = float(input("Ingresa la calificación de la unidad " + str(i + 1) + ": "))*: Dentro del bucle, se solicita al usuario que ingrese la calificación de cada una de las cinco unidades. La función float() se utiliza para convertir la entrada del usuario en un número decimal. Se utiliza str(i + 1) para mostrar al usuario el número de la unidad actual (de 1 a 5).
+
+4. *unidades.append(calificación)*: Se agrega la calificación ingresada por el usuario a la lista unidades usando el método append().
+
+5. *promedio = sum(unidades) / 5*: Se calcula el promedio sumando todas las calificaciones almacenadas en la lista unidades y dividiendo la suma por 5, que es el número de unidades.
+
+6. *if promedio >= 70:*: Aquí, se utiliza una sentencia condicional if para comprobar si el promedio calculado es mayor o igual a 70 (por ciento). Si la condición se cumple, se ejecutará el bloque de código indentado debajo de esta línea.
+
+7. *print("Aprobaste la materia con un promedio de:", promedio)*: Si el promedio es mayor o igual a 70, se imprime un mensaje informando al usuario que aprobó la materia y se muestra el promedio obtenido.
+
+8. *else:*: Si la condición if anterior no se cumple (el promedio es menor que 70), se ejecutará este bloque else.
+
+9. *print("Reprobaste la materia con un promedio de:", promedio)*: Si el promedio es menor que 70, se imprime un mensaje indicando que el usuario reprobó la materia y se muestra el promedio obtenido.
+
+Este programa utiliza un bucle for para solicitar y almacenar las calificaciones de las unidades, luego calcula el promedio y finalmente utiliza una estructura de control condicional if-else para determinar si el usuario aprobó o reprobó la materia.
+
+```
+Ejercicio 9 Costo total de un número de artículos  
+# Programa 9 Programa que calcule el costo total de un número de artículos si: Son 3 artículos o menos precio unitario: $45.00. Más de 3 artículos precio unitario: $30. al final mostrar un mensaje 
+# Fecha: 2024/10/25
+# Elaborado por: Jazmin Macias Sabas 
+cantidad = int(input("¿Cuantos articulos compro? "))
+if cantidad>3:total = cantidad * 30
+else: total = cantidad * 45
+print("El total a pagar es: $" + str(total))
+print("Saludos")
+```
+1. *cantidad = int(input("¿Cuantos articulos compro? "))*: Se solicita al usuario que ingrese la cantidad de artículos que compró. La función input() recoge la entrada como una cadena de texto, y luego int() convierte esa entrada en un número entero, que se almacena en la variable cantidad.
+
+2. *if cantidad > 3:*: Aquí se utiliza una sentencia condicional if para verificar si la cantidad de artículos comprados es mayor a 3.
+
+3. *total = cantidad * 30*: Si la condición anterior es verdadera (es decir, si el usuario compró más de 3 artículos), se calcula el total multiplicando la cantidad de artículos por el precio unitario de $30. Este valor se almacena en la variable total.
+
+4. *else:*: Si la condición del if no se cumple (lo que significa que el usuario compró 3 artículos o menos), se ejecutará este bloque else.
+
+5. *total = cantidad * 45*: En este caso, se calcula el total multiplicando la cantidad de artículos por el precio unitario de $45 y se almacena en la variable total.
+
+6. *print("El total a pagar es: $" + str(total))*: Después de calcular el total, esta línea imprime el costo total a pagar. Se utiliza str(total) para convertir el valor numérico total en una cadena para poder concatenarlo con el mensaje.
+
+7. *print("Saludos")*: Finalmente, se imprime un mensaje de despedida que dice "Saludos".
+
+Este programa utiliza una estructura condicional para aplicar diferentes precios según la cantidad de artículos y luego muestra el total a pagar al usuario. Es una forma efectiva de calcular costos basados en condiciones específicas.
+
+```
+Ejercicio 10 Película de Netflix 
+# Programa 10 Revisar si puedes ver una película en Netflix. la condición para esto es que seas mayor de edad y que hayas comprado la película agregar, gracias por usar Netflix 
+# Fecha: 2024/10/25
+# Elaborado por: Jazmin Macias Sabas 
+edad = int(input("¿Cuantos años tienes?"))
+if edad >=18:
+    compra = int(input("¿Compraste la película?"))
+    if compra ==1:
+        print("Puede ver la película")
+else:
+    print("Vete a hacer la tarea")
+```
+1. *edad = int(input("¿Cuantos años tienes?"))*: Se solicita la edad del usuario y se convierte en un número entero para su almacenamiento en la variable edad.
+
+2. *if edad >= 18:*: Se comprueba si la edad es mayor o igual a 18, ya que esto es la condición para poder ver la película.
+
+3. *compra = int(input("¿Compraste la película?"))*: Se pregunta al usuario si ha comprado la película. La entrada se convierte en un número entero y se guarda en la variable compra.
+
+4. *if compra == 1:*: Se verifica si el valor de compra es igual a 1, lo que significa que el usuario compró la película.
+
+5. *print("Puede ver la película")*: Si la condición anterior se cumple (la persona es mayor de edad y ha comprado la película), se imprime un mensaje indicando que puede ver la película.
+
+6. *else:*: Si la edad del usuario es menor que 18, se ejecutará este bloque else.
+
+7. *print("Vete a hacer la tarea")*: Se imprime un mensaje indicando que el usuario debe ir a hacer la tarea, ya que no cumple con las condiciones para ver la película.
+
+Este programa utiliza estructuras condicionales para validar la edad del usuario y la compra de la película, permitiéndole ver la película solo si las condiciones son satisfactorias.
