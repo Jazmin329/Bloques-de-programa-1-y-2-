@@ -7,7 +7,7 @@ Ejercicio 1.1 Crea un programa que muestre tu nombre.
 # Elaborado por: Jazmin Macias Sabas 
 print("Hola , mi nombre es Jazmin Macias Sabas")
 ```
-linea 4 "print("Hola , mi nombre es Jazmin Macias Sabas")":
+"print("Hola , mi nombre es Jazmin Macias Sabas")":
 Esta línea utiliza la función "print" de Python, que se utiliza para imprimir texto en la pantalla. Dentro de los paréntesis, entre comillas, se encuentra el texto a imprimir, que en este caso es "Hola , mi nombre es Jazmin Macias Sabas". Cuando se ejecuta este programa, se mostrará este texto en la pantalla.
 
 ```
@@ -20,12 +20,10 @@ nombre = input ("Ingresa tu nombre:") # Método que permite ingresar texto
 # Desde el teclado 
 print("Hola, " + nombre)
 ```
-linea 4 nombre = input("Ingresa tu nombre:"):
-
+nombre = input("Ingresa tu nombre:"):
 Esta línea usa la función input(), que permite al programa recibir texto del usuario a través del teclado. El texto que aparece entre paréntesis y comillas ("Ingresa tu nombre:") es lo que verá el usuario como una especie de pregunta o instrucción. Cuando el usuario escribe su nombre y presiona "Enter", ese valor se almacena en la variable nombre.
 
-linea 5 print("Hola, " + nombre):
-
+print("Hola, " + nombre):
 En esta línea, se utiliza nuevamente la función print() para mostrar un mensaje en la pantalla. El mensaje es "Hola, " seguido del contenido de la variable nombre. El operador + se utiliza aquí para concatenar (unir) cadenas de texto. Por ejemplo, si el usuario ingresó "Jazmin", el programa imprimirá "Hola, Jazmin".
 
 ```
@@ -37,17 +35,14 @@ print(7)
 print("Triángulo")
 print(0.25)
 ```
-4. *print(7)*:
+print(7):
+Esta línea utiliza la función print() de Python, que sirve para mostrar en la pantalla lo que se le indique. En este caso, se le indica que imprima el número entero 7, que representa el número de días de una semana.
 
-   Esta línea utiliza la función print() de Python, que sirve para mostrar en la pantalla lo que se le indique. En este caso, se le indica que imprima el número entero 7, que representa el número de días de una semana.
+print("Triángulo"):
+Aquí se vuelve a utilizar la función print(), esta vez para imprimir una cadena de texto, en este caso la palabra "Triángulo", que hace referencia a una figura de tres lados.
 
-5. *print("Triángulo")*:
-
-   Aquí se vuelve a utilizar la función print(), esta vez para imprimir una cadena de texto, en este caso la palabra "Triángulo", que hace referencia a una figura de tres lados.
-
-6. *print(0.25)*:
-
-   La última línea también usa la función print(). En este caso, se imprime un número en coma flotante, concretamente 0.25, que representa la equivalencia de 250 centímetros en metros.
+print(0.25*:
+La última línea también usa la función print(). En este caso, se imprime un número en coma flotante, concretamente 0.25, que representa la equivalencia de 250 centímetros en metros.
 
 Cuando se ejecuta este programa, se imprimirán en la pantalla las tres líneas: "7", "Triángulo" y "0.25", una debajo de la otra. Cada línea representa un tipo de dato diferente: entero, texto y decimal respectivamente.
 
@@ -63,25 +58,20 @@ print("concatenando cadenas" +"esta bien")
 
 print("no es posible" -"restar cadenas ")
 ```
-4. *print(1 + 2)*:
+print(1 + 2):
+Esta línea utiliza la función print() de Python para imprimir el resultado de la suma de los números 1 y 2. Al ejecutar este programa, se imprimirá el valor "3" en la pantalla.
 
-   Esta línea utiliza la función print() de Python para imprimir el resultado de la suma de los números 1 y 2. Al ejecutar este programa, se imprimirá el valor "3" en la pantalla.
+print(1 - 2):
+Aquí se vuelve a utilizar la función print(), esta vez para imprimir el resultado de la resta de los números 1 y 2. El resultado mostrado será "-1".
 
-5. *print(1 - 2)*:
+print(1 * 2):
+Nuevamente se usa print() para imprimir el producto de los números 1 y 2, que es 2.
 
-   Aquí se vuelve a utilizar la función print(), esta vez para imprimir el resultado de la resta de los números 1 y 2. El resultado mostrado será "-1".
+print("concatenando cadenas" + "esta bien"):
+En esta línea se utiliza la función print() para mostrar la concatenación de dos cadenas de texto: "concatenando cadenas" y "esta bien". El operador + se utiliza para unir las dos cadenas y se imprimirá "concatenando cadenasesta bien".
 
-6. *print(1 * 2)*:
-
-   Nuevamente se usa print() para imprimir el producto de los números 1 y 2, que es 2.
-
-7. *print("concatenando cadenas" + "esta bien")*:
-
-   En esta línea se utiliza la función print() para mostrar la concatenación de dos cadenas de texto: "concatenando cadenas" y "esta bien". El operador + se utiliza para unir las dos cadenas y se imprimirá "concatenando cadenasesta bien".
-
-8. *print("no es posible" - "restar cadenas ")*:
-
-   Aquí se intenta realizar una operación no permitida, ya que no se pueden restar cadenas de texto. Al ejecutar este comando, Python generará un error de tipo TypeError.
+print("no es posible" - "restar cadenas "):
+Aquí se intenta realizar una operación no permitida, ya que no se pueden restar cadenas de texto. Al ejecutar este comando, Python generará un error de tipo TypeError.
 
 ```
 Ejercicio 1.5 Realice un programa que que sume, reste, divida, y multiplique dos números e imprima el resultado 
@@ -99,46 +89,37 @@ print("El valor de la resta es: " + str (resta))
 print("El valor de la división es: " + str (división))
 print("El valor de la multiplicación es: " + str (multiplicación))
 ```
-4. *num_1 = int(input("ingresa el primero número:"))*:
+num_1 = int(input("ingresa el primero número:")):
+En esta línea se utiliza la función input() para pedir al usuario que ingrese el primer número. La función int() se utiliza para convertir el valor introducido en un número entero (sin decimales), y este valor se guarda en la variable num_1.
 
-   En esta línea se utiliza la función input() para pedir al usuario que ingrese el primer número. La función int() se utiliza para convertir el valor introducido en un número entero (sin decimales), y este valor se guarda en la variable num_1.
+num_2 = int(input("ingresa el segundo número:")):
+Aquí se pide al usuario que ingrese el segundo número, siguiendo el mismo procedimiento que para el primer número. Este valor se almacena en la variable num_2.
 
-5. *num_2 = int(input("ingresa el segundo número:"))*:
+suma = num_1 + num_2:
+Esta línea calcula la suma de num_1 y num_2 y guarda el resultado en la variable suma.
 
-   Aquí se pide al usuario que ingrese el segundo número, siguiendo el mismo procedimiento que para el primer número. Este valor se almacena en la variable num_2.
+resta = num_1 - num_2:
+Aquí se calcula la resta entre num_1 y num_2 y se guarda el resultado en la variable resta.
 
-6. *suma = num_1 + num_2*:
+division = num_1 / num_2:
+Esta línea calcula la división de num_1 por num_2 y guarda el resultado en la variable division. Si num_2 es igual a cero, ocurrirá un error de ZeroDivisionError.
 
-   Esta línea calcula la suma de num_1 y num_2 y guarda el resultado en la variable suma.
+multiplicación = num_1 * num_2*:
+Aquí se multiplican num_1 y num_2 y el resultado se guarda en la variable multiplicación.
 
-7. *resta = num_1 - num_2*:
+print("El valor de la suma es: " + str(suma)):
+En esta línea, la función print() imprime el texto "El valor de la suma es: " concatenado con el valor de la variable suma. La función str() se utiliza para convertir el valor numérico de suma en una cadena de texto para poder concatenarlo.
 
-   Aquí se calcula la resta entre num_1 y num_2 y se guarda el resultado en la variable resta.
+print("El valor de la resta es: " + str(resta)):
+Aquí se imprime el texto "El valor de la resta es: " junto con el valor de la variable resta.
 
-8. *division = num_1 / num_2*:
+print("El valor de la división es: " + str(división)):
+Esta línea imprime el texto "El valor de la división es: " concatenado con el resultado de la variable división.
 
-   Esta línea calcula la división de num_1 por num_2 y guarda el resultado en la variable division. Si num_2 es igual a cero, ocurrirá un error de ZeroDivisionError.
+print("El valor de la multiplicación es: " + str(multiplicación))*:
+este muestra el resultado
 
-9. *multiplicación = num_1 * num_2*:
-
-   Aquí se multiplican num_1 y num_2 y el resultado se guarda en la variable multiplicación.
-
-10. *print("El valor de la suma es: " + str(suma))*:
-
-   En esta línea, la función print() imprime el texto "El valor de la suma es: " concatenado con el valor de la variable suma. La función str() se utiliza para convertir el valor numérico de suma en una cadena de texto para poder concatenarlo.
-
-11. *print("El valor de la resta es: " + str(resta))*:
-
-   Aquí se imprime el texto "El valor de la resta es: " junto con el valor de la variable resta.
-
-12. *print("El valor de la división es: " + str(división))*:
-
-   Esta línea imprime el texto "El valor de la división es: " concatenado con el resultado de la variable división.
-
-13. *print("El valor de la multiplicación es: " + str(multiplicación))*:
-14. este muestra el resultado
-
-15. ```
+ ```
 Ejercicio 1.6 Realice un programa que solicite la base y la altura y calcule el área de un triángulo 
 # Programa 1.6 Programa que calcula el área de un triángulo 
 # Dados la base # y la altura por el usuario 
@@ -149,21 +130,17 @@ altura = float(input("ingrese el valor de la altura"))
 área   = base * altura / 2
 print("el area del triangulo es:" + str(área))
  ```
-5. *base = float(input("ingrese el valor de la base:"))*:
+base = float(input("ingrese el valor de la base:")):
+En esta línea se utiliza la función input() para solicitar al usuario que ingrese el valor de la base del triángulo. La función float() se utiliza para convertir el valor introducido en un número decimal, y este valor se guarda en la variable base.
 
-   En esta línea se utiliza la función input() para solicitar al usuario que ingrese el valor de la base del triángulo. La función float() se utiliza para convertir el valor introducido en un número decimal, y este valor se guarda en la variable base.
+altura = float(input("ingrese el valor de la altura")):
+Aquí se pide al usuario que ingrese el valor de la altura del triángulo, siguiendo el mismo procedimiento que para la base. Este valor se almacena en la variable altura.
 
-6. *altura = float(input("ingrese el valor de la altura"))*:
+área = base * altura / 2:
+Esta línea calcula el área del triángulo, usando la fórmula base * altura / 2, y guarda el resultado en la variable área.
 
-   Aquí se pide al usuario que ingrese el valor de la altura del triángulo, siguiendo el mismo procedimiento que para la base. Este valor se almacena en la variable altura.
-
-7. *área = base * altura / 2*:
-
-   Esta línea calcula el área del triángulo, usando la fórmula base * altura / 2, y guarda el resultado en la variable área.
-
-8. *print("el area del triangulo es:" + str(área))*:
-
-   En esta línea, la función print() imprime el texto "el área del triángulo es:" concatenado con el valor de la variable área. La función str() se utiliza para convertir el valor numérico de área en una cadena de texto para poder concatenarlo.
+print("el area del triangulo es:" + str(área)):
+En esta línea, la función print() imprime el texto "el área del triángulo es:" concatenado con el valor de la variable área. La función str() se utiliza para convertir el valor numérico de área en una cadena de texto para poder concatenarlo.
 
 Al ejecutar el programa, se pedirá al usuario que ingrese la base y la altura del triángulo. Una vez ingresados ambos valores, se calculará el área y se mostrará el resultado en pantalla.
 
@@ -181,25 +158,20 @@ perimetrocirculo =  3.1416 * 2 * radio
 print("el valor del área es:" + str(areacirculo))
 print("el valor del perimetro es:" + str(perimetrocirculo))
  ```
-5. *radio = float(input("ingresa el valor del radio:"))*:
+radio = float(input("ingresa el valor del radio:")):
+En esta línea se utiliza la función input() para solicitar al usuario que ingrese el valor del radio del círculo. La función float() se utiliza para convertir el valor introducido en un número decimal, y este valor se guarda en la variable radio.
 
-   En esta línea se utiliza la función input() para solicitar al usuario que ingrese el valor del radio del círculo. La función float() se utiliza para convertir el valor introducido en un número decimal, y este valor se guarda en la variable radio.
+areacirculo = 3.1416 * radio * 2:
+Aquí se calcula el área del círculo, utilizando la fórmula 3.1416 * radio ** 2, y se guarda el resultado en la variable areacirculo.
 
-6. **areacirculo = 3.1416 * radio ** 2**:
+perimetrocirculo = 3.1416 * 2 * radio:
+Esta línea calcula el perímetro del círculo, usando la fórmula 3.1416 * 2 * radio, y guarda el resultado en la variable perimetrocirculo.
 
-   Aquí se calcula el área del círculo, utilizando la fórmula 3.1416 * radio ** 2, y se guarda el resultado en la variable areacirculo.
+print("el valor del área es:" + str(areacirculo)):
+En esta línea, la función print() imprime el texto "el valor del área es:" concatenado con el valor de la variable areacirculo. La función str() se utiliza para convertir el valor numérico de areacirculo en una cadena de texto para poder concatenarlo.
 
-7. *perimetrocirculo = 3.1416 * 2 * radio*:
-
-   Esta línea calcula el perímetro del círculo, usando la fórmula 3.1416 * 2 * radio, y guarda el resultado en la variable perimetrocirculo.
-
-8. *print("el valor del área es:" + str(areacirculo))*:
-
-   En esta línea, la función print() imprime el texto "el valor del área es:" concatenado con el valor de la variable areacirculo. La función str() se utiliza para convertir el valor numérico de areacirculo en una cadena de texto para poder concatenarlo.
-
-9. *print("el valor del perimetro es:" + str(perimetrocirculo))*:
-
-   Aquí se imprime el texto "el valor del perímetro es:" junto con el valor de la variable perimetrocirculo.
+print("el valor del perimetro es:" + str(perimetrocirculo)):
+Aquí se imprime el texto "el valor del perímetro es:" junto con el valor de la variable perimetrocirculo.
 
 Cuando se ejecuta el programa, se pedirá al usuario que ingrese el radio del círculo. Una vez ingresado el valor, se calcularán el área y el perímetro del círculo, y se mostrarán los resultados en pantalla.
 
@@ -217,37 +189,29 @@ print("Horas::" + str(Horas))
 print("Minutos::" + str(Minutos))
 print("Meses::" + str(Meses))
  ```
-4. *Días = float(input("Ingrese el número de días:"))*:
+Días = float(input("Ingrese el número de días:")):
+En esta línea se utiliza la función input() para solicitar al usuario que ingrese el número de días. La función float() se utiliza para convertir el valor introducido en un número decimal, y este valor se guarda en la variable Días.
 
-   En esta línea se utiliza la función input() para solicitar al usuario que ingrese el número de días. La función float() se utiliza para convertir el valor introducido en un número decimal, y este valor se guarda en la variable Días.
+Horas = Días * 24*:
+Aquí se calculan las horas equivalentes al número de días ingresado, utilizando la fórmula Días * 24, y se guarda el resultado en la variable Horas.
 
-5. *Horas = Días * 24*:
+Minutos = Horas * 60:
+Esta línea calcula el número de minutos equivalentes al número de horas calculado anteriormente, utilizando la fórmula Horas * 60. El resultado se guarda en la variable Minutos.
 
-   Aquí se calculan las horas equivalentes al número de días ingresado, utilizando la fórmula Días * 24, y se guarda el resultado en la variable Horas.
+Meses = Días / 30:
+Aquí se calcula el número de meses equivalentes al número de días ingresado, utilizando la fórmula Días / 30. Este resultado se guarda en la variable Meses.
 
-6. *Minutos = Horas * 60*:
+print("Días:" + str(Días)):
+En esta línea, la función print() imprime el texto "Días:" concatenado con el valor de la variable Días. La función str() se utiliza para convertir el valor numérico de Días en una cadena de texto para poder concatenarlo.
 
-   Esta línea calcula el número de minutos equivalentes al número de horas calculado anteriormente, utilizando la fórmula Horas * 60. El resultado se guarda en la variable Minutos.
+print("Horas::" + str(Horas)):
+Aquí se imprime el texto "Horas::" junto con el valor de la variable Horas.
 
-7. *Meses = Días / 30*:
+print("Minutos::" + str(Minutos)):
+En esta línea se imprime el texto "Minutos::" concatenado con el valor de la variable Minutos.
 
-   Aquí se calcula el número de meses equivalentes al número de días ingresado, utilizando la fórmula Días / 30. Este resultado se guarda en la variable Meses.
-
-8. *print("Días:" + str(Días))*:
-
-   En esta línea, la función print() imprime el texto "Días:" concatenado con el valor de la variable Días. La función str() se utiliza para convertir el valor numérico de Días en una cadena de texto para poder concatenarlo.
-
-9. *print("Horas::" + str(Horas))*:
-
-   Aquí se imprime el texto "Horas::" junto con el valor de la variable Horas.
-
-10. *print("Minutos::" + str(Minutos))*:
-
-   En esta línea se imprime el texto "Minutos::" concatenado con el valor de la variable Minutos.
-
-11. *print("Meses::" + str(Meses))*:
-
-   Aquí se imprime el texto "Meses::" junto con el valor de la variable Meses.
+print("Meses::" + str(Meses)):
+ Aquí se imprime el texto "Meses::" junto con el valor de la variable Meses.
 
 Cuando se ejecuta el programa, se pedirá al usuario que ingrese el número de días. Una vez ingresado el valor, se calcularán el número equivalente de minutos, horas y meses, y se mostrarán los resultados en pantalla.
 
@@ -261,21 +225,17 @@ print (num)
 num = num +1
 print (num)
 ```
-4. *num = 38*:
+num = 38:
+En esta línea se crea una variable llamada num y se le asigna el valor entero 38.
 
-   En esta línea se crea una variable llamada num y se le asigna el valor entero 38.
+print(num):
+Aquí se imprime en pantalla el valor actual de la variable num, que en este caso es 38.
 
-5. *print(num)*:
+num = num + 1:
+En esta línea se actualiza el valor de la variable num. Se suma 1 al valor actual de num (38) y se guarda el resultado (39) en la misma variable num.
 
-   Aquí se imprime en pantalla el valor actual de la variable num, que en este caso es 38.
-
-6. *num = num + 1*:
-
-   En esta línea se actualiza el valor de la variable num. Se suma 1 al valor actual de num (38) y se guarda el resultado (39) en la misma variable num.
-
-7. *print(num)*:
-
-   Aquí se imprime en pantalla el valor actualizado de la variable num, que ahora es 39.
+print(num):
+Aquí se imprime en pantalla el valor actualizado de la variable num, que ahora es 39.
 
 Cuando se ejecuta este programa, se muestra primero el valor inicial de num (38), luego se actualiza el valor de num sumándole 1, y finalmente se muestra el valor actualizado (39). Este programa es un ejemplo básico de cómo se pueden crear, manipular y mostrar las variables en Python.
 
@@ -293,17 +253,14 @@ print ("Hola,\n\"Osvaldo\"")
 print ("Estoy feliz \u263A\t\u2615\t\u2650")
 print("Alineado:\t\u263A")
 ```
-4. *print("Hola,\n\"Osvaldo\"")*:
+print("Hola,\n\"Osvaldo\""):
+Aquí se imprime la cadena "Hola, \"Osvaldo\"" en pantalla. La secuencia de escape \n hace que se imprima el texto "Osvaldo" en una línea nueva. La barra invertida \ antes de las comillas dobles " hace que las comillas se interpreten como parte de la cadena y no como el fin de la cadena.
 
-   Aquí se imprime la cadena "Hola, \"Osvaldo\"" en pantalla. La secuencia de escape \n hace que se imprima el texto "Osvaldo" en una línea nueva. La barra invertida \ antes de las comillas dobles " hace que las comillas se interpreten como parte de la cadena y no como el fin de la cadena.
+print("Estoy feliz \u263A\t\u2615\t\u2650"):
+Esta línea imprime la cadena "Estoy feliz" seguida de tres símbolos Unicode, una cara sonriente (\u263A), una taza de café (\u2615) y una cruz (\u2650). La secuencia de escape \t hace que haya una tabulación entre los símbolos Unicode.
 
-5. *print("Estoy feliz \u263A\t\u2615\t\u2650")*:
-
-   Esta línea imprime la cadena "Estoy feliz" seguida de tres símbolos Unicode, una cara sonriente (\u263A), una taza de café (\u2615) y una cruz (\u2650). La secuencia de escape \t hace que haya una tabulación entre los símbolos Unicode.
-
-6. *print("Alineado:\t\u263A")*:
-
-   Aquí se imprime la cadena "Alineado:", una tabulación (\t) y el símbolo Unicode de la cara sonriente (\u263A). La tabulación hace que el símbolo Unicode se alinee con el texto "Alineado:".
+print("Alineado:\t\u263A")*:
+Aquí se imprime la cadena "Alineado:", una tabulación (\t) y el símbolo Unicode de la cara sonriente (\u263A). La tabulación hace que el símbolo Unicode se alinee con el texto "Alineado:".
 
 Cuando se ejecuta este programa, se imprimirán los mensajes y los símbolos Unicode en pantalla, mostrando cómo se pueden utilizar caracteres especiales y secuencias de escape en las cadenas de Python.
 
@@ -343,53 +300,41 @@ print(3 >= 5)   # True
 
 print("\u263A" * 10)
 ```
-4. *"print("-----Operador IGUAL (==)")"*:
+"print("-----Operador IGUAL (==)")":
+Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de igualdad (==).
 
-   Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de igualdad (==).
+"print(5 == 5)   # True":
+Aquí se imprime el resultado de la comparación 5 == 5, que es True, ya que 5 es igual a 5.
 
-5. *"print(5 == 5)   # True"*:
+"print(10 == 7)  # False":
+Esta línea imprime el resultado de la comparación 10 == 7, que es False, ya que 10 no es igual a 7.
 
-   Aquí se imprime el resultado de la comparación 5 == 5, que es True, ya que 5 es igual a 5.
+"print(5.0 == 5) # True":
+Aquí se imprime el resultado de la comparación 5.0 == 5, que es True, ya que 5.0 es igual a 5.
 
-6. *"print(10 == 7)  # False"*:
+"print("\n-----Operador DIFERENTE o NO IGUAL (!=)")":
+Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de desigualdad (!=).
 
-   Esta línea imprime el resultado de la comparación 10 == 7, que es False, ya que 10 no es igual a 7.
+"print(5 != 5)   # False":
+Aquí se imprime el resultado de la comparación 5 != 5, que es False, ya que 5 es igual a 5.
 
-7. *"print(5.0 == 5) # True"*:
+"print(10 != 7)  # True":
+Esta línea imprime el resultado de la comparación 10 != 7, que es True, ya que 10 no es igual a 7.
 
-   Aquí se imprime el resultado de la comparación 5.0 == 5, que es True, ya que 5.0 es igual a 5.
+"print(5.0 != 5) # False":
+Aquí se imprime el resultado de la comparación 5.0 != 5, que es False, ya que 5.0 es igual a 5.
 
-8. *"print("\n-----Operador DIFERENTE o NO IGUAL (!=)")"*:
+"print("\n-----Operador MAYOR QUE (>)")":
+Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de mayor que (>).
 
-   Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de desigualdad (!=).
+"print(10 > 5) # True":
+Aquí se imprime el resultado de la comparación 10 > 5, que es True, ya que 10 es mayor que 5.
 
-9. *"print(5 != 5)   # False"*:
+"print(5 > 10) # False":
+Esta línea imprime el resultado de la comparación 5 > 10, que es False, ya que 5 no es mayor que 10.
 
-   Aquí se imprime el resultado de la comparación 5 != 5, que es False, ya que 5 es igual a 5.
-
-10. *"print(10 != 7)  # True"*:
-
-   Esta línea imprime el resultado de la comparación 10 != 7, que es True, ya que 10 no es igual a 7.
-
-11. *"print(5.0 != 5) # False"*:
-
-   Aquí se imprime el resultado de la comparación 5.0 != 5, que es False, ya que 5.0 es igual a 5.
-
-12. *"print("\n-----Operador MAYOR QUE (>)")"*:
-
-   Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de mayor que (>).
-
-13. *"print(10 > 5) # True"*:
-
-   Aquí se imprime el resultado de la comparación 10 > 5, que es True, ya que 10 es mayor que 5.
-
-14. *"print(5 > 10) # False"*:
-
-   Esta línea imprime el resultado de la comparación 5 > 10, que es False, ya que 5 no es mayor que 10.
-
-15. *"print("\nOperador MENOR QUE (<)")"*:
-
-   Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de menor que (<).
+"print("\nOperador MENOR QUE (<)")":
+Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos del operador de menor que (<).
 
 ```
 Ejercicio 1.12 Programa para probar las compuertas lógicas AND OR 
@@ -407,45 +352,35 @@ print (False and True)
 print (True and False)
 print (True and True)
 ```
-4. *"print("compuerta OR")"*:
+"print("compuerta OR")":
+Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos de la compuerta lógica "OR".
 
-   Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos de la compuerta lógica "OR".
+"print(False or False)":
+Aquí se imprime el resultado de la expresión False or False, que es False, ya que ambos valores son falsos.
 
-5. *"print(False or False)"*:
+"print(False or True)":
+Esta línea imprime el resultado de la expresión False or True, que es True, ya que al menos uno de los valores es verdadero.
 
-   Aquí se imprime el resultado de la expresión False or False, que es False, ya que ambos valores son falsos.
+"print(True or False)":
+Aquí se imprime el resultado de la expresión True or False, que es True, ya que al menos uno de los valores es verdadero.
 
-6. *"print(False or True)"*:
+"print(True or True)":
+Esta línea imprime el resultado de la expresión True or True, que es True, ya que ambos valores son verdaderos.
 
-   Esta línea imprime el resultado de la expresión False or True, que es True, ya que al menos uno de los valores es verdadero.
+"print("compuerta AND")":
+Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos de la compuerta lógica "AND".
 
-7. *"print(True or False)"*:
+print(False and False)
+Aquí se imprime el resultado de la expresión False and False, que es False, ya que ambos valores son falsos.
 
-   Aquí se imprime el resultado de la expresión True or False, que es True, ya que al menos uno de los valores es verdadero.
+"print(False and True)":
+Esta línea imprime el resultado de la expresión False and True, que es False, ya que al menos uno de los valores es falso.
 
-8. *"print(True or True)"*:
+"print(True and False)":
+Aquí se imprime el resultado de la expresión True and False, que es False, ya que al menos uno de los valores es falso.
 
-   Esta línea imprime el resultado de la expresión True or True, que es True, ya que ambos valores son verdaderos.
-
-9. *"print("compuerta AND")"*:
-
-   Esta línea imprime una línea de separación y un título que indica que se mostrarán ejemplos de la compuerta lógica "AND".
-
-10. *"print(False and False)"*:
-
-   Aquí se imprime el resultado de la expresión False and False, que es False, ya que ambos valores son falsos.
-
-11. *"print(False and True)"*:
-
-   Esta línea imprime el resultado de la expresión False and True, que es False, ya que al menos uno de los valores es falso.
-
-12. *"print(True and False)"*:
-
-   Aquí se imprime el resultado de la expresión True and False, que es False, ya que al menos uno de los valores es falso.
-
-13. *"print(True and True)"*:
-
-   Esta línea imprime el resultado de la expresión True and True, que es True, ya que ambos valores son verdaderos.
+"print(True and True):
+Esta línea imprime el resultado de la expresión True and True, que es True, ya que ambos valores son verdaderos.
 
 Cuando se ejecuta este programa, se muestran los resultados de diferentes combinaciones de valores booleanos usando las compuertas lógicas "OR" y "AND".
 
@@ -457,13 +392,11 @@ Ejercicio 1 Compuerta NOT
 print (not True)  # Imprime False 
 print (not False) # Imprime True 
 ```
-4. *"print(not True)  # Imprime False"*:
+"print(not True)  # Imprime False":
+Esta línea imprime el resultado de la expresión not True, que es False. La compuerta NOT invierte el valor True a False.
 
-   Esta línea imprime el resultado de la expresión not True, que es False. La compuerta NOT invierte el valor True a False.
-
-5. *"print(not False) # Imprime True"*:
-
-   Aquí se imprime el resultado de la expresión not False, que es True. La compuerta NOT invierte el valor False a True.
+"print(not False) # Imprime True":
+Aquí se imprime el resultado de la expresión not False, que es True. La compuerta NOT invierte el valor False a True.
 
 Cuando se ejecuta este programa, se muestran los resultados de las expresiones utilizando la compuerta lógica NOT, demostrando su funcionamiento al invertir valores booleanos.
 
@@ -485,25 +418,20 @@ print(not(True or False))  # No hay fiesta
 print(not(True or True))   # No hay fiesta 
 ```
 
-4. *"#/ A / B // NOT (A or B) /"*:
+"#/ A / B // NOT (A or B) /":
+Estas líneas son comentarios que representan una tabla de verdad de la función lógica NOT(A or B).
 
-   Estas líneas son comentarios que representan una tabla de verdad de la función lógica NOT(A or B).
+"print(not(False or False)) # Si hay fiesta":
+Aquí se imprime el resultado de la expresión not(False or False), que es True. Como ni Chorchis ni Choto van a la fiesta (ambos valores son False), entonces sí hay fiesta.
 
-5. *"print(not(False or False)) # Si hay fiesta"*:
+"print(not(False or True))  # No hay fiesta":
+Esta línea imprime el resultado de la expresión not(False or True), que es False. Como Chorchis no va a la fiesta pero Choto sí (valores False y True respectivamente), entonces no hay fiesta.
 
-   Aquí se imprime el resultado de la expresión not(False or False), que es True. Como ni Chorchis ni Choto van a la fiesta (ambos valores son False), entonces sí hay fiesta.
+"print(not(True or False))  # No hay fiesta":
+Aquí se imprime el resultado de la expresión not(True or False), que es False. Como Chorchis va a la fiesta pero Choto no (valores True y False respectivamente), entonces no hay fiesta.
 
-6. *"print(not(False or True))  # No hay fiesta"*:
-
-   Esta línea imprime el resultado de la expresión not(False or True), que es False. Como Chorchis no va a la fiesta pero Choto sí (valores False y True respectivamente), entonces no hay fiesta.
-
-7. *"print(not(True or False))  # No hay fiesta"*:
-
-   Aquí se imprime el resultado de la expresión not(True or False), que es False. Como Chorchis va a la fiesta pero Choto no (valores True y False respectivamente), entonces no hay fiesta.
-
-8. *"print(not(True or True))   # No hay fiesta"*:
-
-   Esta línea imprime el resultado de la expresión not(True or True), que es False. Como tanto Chorchis como Choto van a la fiesta (ambos valores son True), entonces no hay fiesta.
+"print(not(True or True))   # No hay fiesta":
+Esta línea imprime el resultado de la expresión not(True or True), que es False. Como tanto Chorchis como Choto van a la fiesta (ambos valores son True), entonces no hay fiesta.
 
 Cuando se ejecuta este programa, se muestran los resultados de las expresiones utilizando las compuertas lógicas NOT y OR, que representan la situación de que si Chorchis o Choto van a la fiesta, entonces no hay fiesta.
 
@@ -516,16 +444,15 @@ Ejercicio 3 Funcionamiento de adicción y concatenación de varias variables
 # Elaborado por: Jazmin Macias Sabas 
 print ("Mi " + "nombre " + "es " + "Jazmin") 
 ```
-5. *print("Mi " + "nombre " + "es " + "Jazmin")*:
-
-   Esta línea es donde ocurre la concatenación real. Utiliza el operador + para unir varias cadenas de texto. Cada cadena está separada por un espacio, y al ejecutarse, se combinan todas las partes en una sola cadena resultante.
+print("Mi " + "nombre " + "es " + "Jazmin"):
+Esta línea es donde ocurre la concatenación real. Utiliza el operador + para unir varias cadenas de texto. Cada cadena está separada por un espacio, y al ejecutarse, se combinan todas las partes en una sola cadena resultante.
 
    - "Mi ": La primera cadena.
    - "nombre ": La segunda cadena.
    - "es ": La tercera cadena.
    - "Jazmin": La cuarta cadena.
 
-   Al concatenar estas cadenas, el resultado final es la oración: *"Mi nombre es Jazmin"*. 
+Al concatenar estas cadenas, el resultado final es la oración: *"Mi nombre es Jazmin"*. 
 
 Cuando se ejecuta este programa, imprime en la consola la frase completa resultante de la concatenación, mostrando cómo se pueden unir múltiples cadenas para formar un mensaje coherente. ¡Es una manera sencilla y efectiva de trabajar con texto en Python!
 
@@ -550,33 +477,26 @@ print(f"El impuesto a pagar es: {impuesto:.2f}")
 print(f"El total a pagar, incluyendo impuestos, es: {total_a_pagar:.2f}")
 print("Gracias por usar nuestro sistema")
 ```
-4. *"valor = float(input("Ingrese el valor sobre sobre el cual quieres calcular los impuestos: "))"*:
+"valor = float(input("Ingrese el valor sobre sobre el cual quieres calcular los impuestos: "))":
+En esta línea, se solicita al usuario que ingrese un valor (valor original) sobre el cual se calcularán los impuestos. La función float() se utiliza para convertir la entrada del usuario en un número decimal.
 
-   En esta línea, se solicita al usuario que ingrese un valor (valor original) sobre el cual se calcularán los impuestos. La función float() se utiliza para convertir la entrada del usuario en un número decimal.
+"porcentaje_impuesto = float(input("Ingrese el porcentaje de impuesto: "))":
+En esta línea, se solicita al usuario que ingrese el porcentaje de impuesto que se aplicará al valor original. También se utiliza la función float() para convertir la entrada del usuario en un número decimal.
 
-5. *"porcentaje_impuesto = float(input("Ingrese el porcentaje de impuesto: "))"*:
+"impuesto = (porcentaje_impuesto / 100) * valor":
+Aquí se calcula el impuesto, multiplicando el valor original por el porcentaje de impuesto dividido por 100.
 
-   En esta línea, se solicita al usuario que ingrese el porcentaje de impuesto que se aplicará al valor original. También se utiliza la función float() para convertir la entrada del usuario en un número decimal.
+"total_a_pagar = valor + impuesto":
+En esta línea, se calcula el total a pagar sumando el valor original y el impuesto calculado.
 
-6. *"impuesto = (porcentaje_impuesto / 100) * valor"*:
+"print(f"El impuesto a pagar es: {impuesto:.2f}")":
+Aquí se imprime el valor del impuesto calculado con 2 dígitos decimales.
 
-   Aquí se calcula el impuesto, multiplicando el valor original por el porcentaje de impuesto dividido por 100.
+"print(f"El total a pagar, incluyendo impuestos, es: {total_a_pagar:.2f}")":
+En esta línea, se muestra el total a pagar con impuestos incluidos, también con 2 dígitos decimales.
 
-7. *"total_a_pagar = valor + impuesto"*:
-
-   En esta línea, se calcula el total a pagar sumando el valor original y el impuesto calculado.
-
-8. *"print(f"El impuesto a pagar es: {impuesto:.2f}")"*:
-
-   Aquí se imprime el valor del impuesto calculado con 2 dígitos decimales.
-
-9. *"print(f"El total a pagar, incluyendo impuestos, es: {total_a_pagar:.2f}")"*:
-
-   En esta línea, se muestra el total a pagar con impuestos incluidos, también con 2 dígitos decimales.
-
-10. *"print("Gracias por usar nuestro sistema")"*:
-
-   Aquí se imprime un mensaje de agradecimiento al usuario por utilizar el programa.
+"print("Gracias por usar nuestro sistema")":
+Aquí se imprime un mensaje de agradecimiento al usuario por utilizar el programa.
 
 Cuando se ejecuta el programa, solicita al usuario los valores necesarios y calcula el impuesto y el total a pagar. Finalmente, muestra los resultados por pantalla.
 
@@ -607,33 +527,33 @@ mi_nombre = "Choto Chorchis"
 print (mi_nombre[3])
 print (mi_nombre[12])
 ```
-*Comparación*:
+Comparación:
 
-1. *print("perro" == "perro")*: Aquí se utiliza el operador de comparación == para comparar dos cadenas. Si son idénticas, la expresión devolverá True; en este caso, se imprime True porque ambas cadenas son "perro".
+print("perro" == "perro"): Aquí se utiliza el operador de comparación == para comparar dos cadenas. Si son idénticas, la expresión devolverá True; en este caso, se imprime True porque ambas cadenas son "perro".
 
-2. *print("perro" != "gato")*: Este ejemplo utiliza el operador !=, que compara si dos cadenas son diferentes. En este caso, como "perro" y "gato" son distintos, se imprime True.
+print("perro" != "gato"): Este ejemplo utiliza el operador !=, que compara si dos cadenas son diferentes. En este caso, como "perro" y "gato" son distintos, se imprime True.
 
-3. *print("Aguascalientes" < "Zacatecas")*: Aquí se utiliza el operador < para comparar cadenas alfabéticamente. Si la primera cadena viene antes alfabéticamente que la segunda, la expresión devolverá True. En este ejemplo, como "Aguascalientes" alfabéticamente viene antes que "Zacatecas", se imprime True.
+print("Aguascalientes" < "Zacatecas"): Aquí se utiliza el operador < para comparar cadenas alfabéticamente. Si la primera cadena viene antes alfabéticamente que la segunda, la expresión devolverá True. En este ejemplo, como "Aguascalientes" alfabéticamente viene antes que "Zacatecas", se imprime True.
 
-4. *print("Aire" >= "Agua")*: Este ejemplo usa el operador >= para una comparación alfabética. Devolverá True si la primera cadena es alfabéticamente mayor o igual que la segunda. Como "Aire" alfabéticamente está después que "Agua", se imprime True.
+print("Aire" >= "Agua"): Este ejemplo usa el operador >= para una comparación alfabética. Devolverá True si la primera cadena es alfabéticamente mayor o igual que la segunda. Como "Aire" alfabéticamente está después que "Agua", se imprime True.
 
-*Membership (Pertenencia)*:
+Membership (Pertenencia):
 
 El operador in se utiliza para comprobar si una cadena aparece dentro de otra.
 
-1. *print("house" in "boathouse")*: Aquí se evalúa si la cadena "house" aparece en la cadena "boathouse". Como la cadena "house" sí está presente en "boathouse", la expresión devuelve True.
+print("house" in "boathouse"): Aquí se evalúa si la cadena "house" aparece en la cadena "boathouse". Como la cadena "house" sí está presente en "boathouse", la expresión devuelve True.
 
-2. *print("bien" in "bienvenidos")*: En este caso, la palabra "bien" sí forma parte de la palabra "bienvenidos", por lo que se imprime True.
+print("bien" in "bienvenidos"): En este caso, la palabra "bien" sí forma parte de la palabra "bienvenidos", por lo que se imprime True.
 
-3. *print("y" not in "ejes")*: Aquí se utiliza la negación del operador in, buscando si la cadena "y" no está presente en la cadena "ejes". Como la letra "y" no está presente en "ejes", se imprime True.
+print("y" not in "ejes"): Aquí se utiliza la negación del operador in, buscando si la cadena "y" no está presente en la cadena "ejes". Como la letra "y" no está presente en "ejes", se imprime True.
 
-4. *print("je" not in "ejes")*: En este caso, se busca si la subcadena "je" no está presente en "ejes". Como "je" sí está presente en "ejes", la expresión es falsa, y se imprime False.
+print("je" not in "ejes"): En este caso, se busca si la subcadena "je" no está presente en "ejes". Como "je" sí está presente en "ejes", la expresión es falsa, y se imprime False.
 
-*Indexing (Indexación)*:
+Indexing (Indexación):
 
-1. *mi_nombre = "Choto Chorchis"*: Se crea una variable llamada mi_nombre y se le asigna la cadena "Choto Chorchis".
+mi_nombre = "Choto Chorchis": Se crea una variable llamada mi_nombre y se le asigna la cadena "Choto Chorchis".
 
-2. *print(mi_nombre[3])*: Aquí se utiliza la indexación para acceder al cuarto carácter de la cadena mi_nombre, ya que la indexación en Python empieza en 0. En este caso, se imprime la letra "t", que está en la posición 3 (cuarta letra).
+print(mi_nombre[3]): Aquí se utiliza la indexación para acceder al cuarto carácter de la cadena mi_nombre, ya que la indexación en Python empieza en 0. En este caso, se imprime la letra "t", que está en la posición 3 (cuarta letra).
 
 ```
 Ejercicio 6 word = hamster
@@ -646,15 +566,15 @@ print (word[1:-1])
 print (word[-3:])
 print (word[:3])
 ```
-1. *word = "hamster"*: Se define una variable llamada word y se le asigna la cadena "hamster".
+word = "hamster": Se define una variable llamada word y se le asigna la cadena "hamster".
 
-2. *print(word[-1])*: Aquí se accede al último carácter de la cadena word mediante indexación negativa, donde -1 representa el último carácter. En este caso, se imprime la letra "r".
+print(word[-1]): Aquí se accede al último carácter de la cadena word mediante indexación negativa, donde -1 representa el último carácter. En este caso, se imprime la letra "r".
 
-3. *print(word[1:-1])*: Este ejemplo utiliza rebanado (slicing) para obtener una subcadena de word, empezando desde la posición 1 y terminando en la posición -1 (la penúltima letra). Esto imprime la subcadena "amste", excluyendo la primera y la última letra de la palabra original.
+print(word[1:-1]): Este ejemplo utiliza rebanado (slicing) para obtener una subcadena de word, empezando desde la posición 1 y terminando en la posición -1 (la penúltima letra). Esto imprime la subcadena "amste", excluyendo la primera y la última letra de la palabra original.
 
-4. *print(word[-3:])*: En este caso, se utiliza rebanado para obtener una subcadena que empieza desde la tercera última letra hasta el final de la palabra word. Se imprime la subcadena "ster".
+print(word[-3:]): En este caso, se utiliza rebanado para obtener una subcadena que empieza desde la tercera última letra hasta el final de la palabra word. Se imprime la subcadena "ster".
 
-5. *print(word[:3])*: Aquí se obtiene una subcadena de word que va desde el inicio hasta la posición 2 (ya que la indexación empieza en 0), utilizando rebanado. Se imprime la subcadena "ham", que son las primeras tres letras de la palabra original.
+print(word[:3]): Aquí se obtiene una subcadena de word que va desde el inicio hasta la posición 2 (ya que la indexación empieza en 0), utilizando rebanado. Se imprime la subcadena "ham", que son las primeras tres letras de la palabra original.
 
 ```
 Ejercicio 7 El bar”
@@ -666,17 +586,17 @@ if edad >=18:print("Puede ingresar al bar")
 else:print("Vete a tu casa")
 print("Fin del programa")
 ```
-1. *edad = int(input("Ingresa tu edad: "))*: Esta línea pide al usuario que ingrese su edad a través de la función input(). La función int() convierte la entrada del usuario en un número entero y lo almacena en la variable edad.
+edad = int(input("Ingresa tu edad: ")): Esta línea pide al usuario que ingrese su edad a través de la función input(). La función int() convierte la entrada del usuario en un número entero y lo almacena en la variable edad.
 
-2. *if edad >= 18:*: Esta es una sentencia condicional if que verifica si la edad ingresada es mayor o igual a 18. Si la condición se cumple, se ejecutará el bloque de código que está indentado justo debajo de esta línea.
+if edad >= 18:: Esta es una sentencia condicional if que verifica si la edad ingresada es mayor o igual a 18. Si la condición se cumple, se ejecutará el bloque de código que está indentado justo debajo de esta línea.
 
-3. *print("Puede ingresar al bar")*: Si la edad es mayor o igual a 18, se imprimirá este mensaje informando al usuario que puede ingresar al bar.
+print("Puede ingresar al bar"): Si la edad es mayor o igual a 18, se imprimirá este mensaje informando al usuario que puede ingresar al bar.
 
-4. *else:*: Si la condición if anterior no se cumple (la edad es menor que 18), se ejecutará este bloque else.
+else:: Si la condición if anterior no se cumple (la edad es menor que 18), se ejecutará este bloque else.
 
-5. *print("Vete a tu casa")*: En caso de que la edad sea menor que 18, se imprimirá este mensaje indicando que no puede ingresar al bar.
+print("Vete a tu casa"): En caso de que la edad sea menor que 18, se imprimirá este mensaje indicando que no puede ingresar al bar.
 
-6. *print("Fin del programa")*: Este mensaje se imprimirá al final, independientemente de si la edad es mayor o menor que 18, indicando el final del programa.
+print("Fin del programa"): Este mensaje se imprimirá al final, independientemente de si la edad es mayor o menor que 18, indicando el final del programa.
 
 Este programa utiliza una estructura de control condicional (if-else) para determinar qué bloque de código ejecutar en función de la edad ingresada por el usuario.
 
@@ -702,23 +622,23 @@ if promedio >= 70:
 else:
     print("Reprobaste la materia con un promedio de:", promedio)
 ```
-1. *unidades = []*: Esta línea inicializa una lista vacía llamada unidades que se utilizará para almacenar las calificaciones de cada unidad.
+unidades = []: Esta línea inicializa una lista vacía llamada unidades que se utilizará para almacenar las calificaciones de cada unidad.
 
-2. *for i in range(5):*: Se utiliza un bucle for para recorrer cinco iteraciones, ya que hay cinco unidades en total.
+for i in range(5):: Se utiliza un bucle for para recorrer cinco iteraciones, ya que hay cinco unidades en total.
 
-3. *calificación = float(input("Ingresa la calificación de la unidad " + str(i + 1) + ": "))*: Dentro del bucle, se solicita al usuario que ingrese la calificación de cada una de las cinco unidades. La función float() se utiliza para convertir la entrada del usuario en un número decimal. Se utiliza str(i + 1) para mostrar al usuario el número de la unidad actual (de 1 a 5).
+calificación = float(input("Ingresa la calificación de la unidad " + str(i + 1) + ": ")): Dentro del bucle, se solicita al usuario que ingrese la calificación de cada una de las cinco unidades. La función float() se utiliza para convertir la entrada del usuario en un número decimal. Se utiliza str(i + 1) para mostrar al usuario el número de la unidad actual (de 1 a 5).
 
-4. *unidades.append(calificación)*: Se agrega la calificación ingresada por el usuario a la lista unidades usando el método append().
+unidades.append(calificación): Se agrega la calificación ingresada por el usuario a la lista unidades usando el método append().
 
-5. *promedio = sum(unidades) / 5*: Se calcula el promedio sumando todas las calificaciones almacenadas en la lista unidades y dividiendo la suma por 5, que es el número de unidades.
+promedio = sum(unidades) / 5: Se calcula el promedio sumando todas las calificaciones almacenadas en la lista unidades y dividiendo la suma por 5, que es el número de unidades.
 
-6. *if promedio >= 70:*: Aquí, se utiliza una sentencia condicional if para comprobar si el promedio calculado es mayor o igual a 70 (por ciento). Si la condición se cumple, se ejecutará el bloque de código indentado debajo de esta línea.
+if promedio >= 70:: Aquí, se utiliza una sentencia condicional if para comprobar si el promedio calculado es mayor o igual a 70 (por ciento). Si la condición se cumple, se ejecutará el bloque de código indentado debajo de esta línea.
 
-7. *print("Aprobaste la materia con un promedio de:", promedio)*: Si el promedio es mayor o igual a 70, se imprime un mensaje informando al usuario que aprobó la materia y se muestra el promedio obtenido.
+print("Aprobaste la materia con un promedio de:", promedio): Si el promedio es mayor o igual a 70, se imprime un mensaje informando al usuario que aprobó la materia y se muestra el promedio obtenido.
 
-8. *else:*: Si la condición if anterior no se cumple (el promedio es menor que 70), se ejecutará este bloque else.
+else:: Si la condición if anterior no se cumple (el promedio es menor que 70), se ejecutará este bloque else.
 
-9. *print("Reprobaste la materia con un promedio de:", promedio)*: Si el promedio es menor que 70, se imprime un mensaje indicando que el usuario reprobó la materia y se muestra el promedio obtenido.
+print("Reprobaste la materia con un promedio de:", promedio): Si el promedio es menor que 70, se imprime un mensaje indicando que el usuario reprobó la materia y se muestra el promedio obtenido.
 
 Este programa utiliza un bucle for para solicitar y almacenar las calificaciones de las unidades, luego calcula el promedio y finalmente utiliza una estructura de control condicional if-else para determinar si el usuario aprobó o reprobó la materia.
 
@@ -733,19 +653,19 @@ else: total = cantidad * 45
 print("El total a pagar es: $" + str(total))
 print("Saludos")
 ```
-1. *cantidad = int(input("¿Cuantos articulos compro? "))*: Se solicita al usuario que ingrese la cantidad de artículos que compró. La función input() recoge la entrada como una cadena de texto, y luego int() convierte esa entrada en un número entero, que se almacena en la variable cantidad.
+cantidad = int(input("¿Cuantos articulos compro? ")): Se solicita al usuario que ingrese la cantidad de artículos que compró. La función input() recoge la entrada como una cadena de texto, y luego int() convierte esa entrada en un número entero, que se almacena en la variable cantidad.
 
-2. *if cantidad > 3:*: Aquí se utiliza una sentencia condicional if para verificar si la cantidad de artículos comprados es mayor a 3.
+if cantidad > 3:: Aquí se utiliza una sentencia condicional if para verificar si la cantidad de artículos comprados es mayor a 3.
 
-3. *total = cantidad * 30*: Si la condición anterior es verdadera (es decir, si el usuario compró más de 3 artículos), se calcula el total multiplicando la cantidad de artículos por el precio unitario de $30. Este valor se almacena en la variable total.
+total = cantidad * 30*: Si la condición anterior es verdadera (es decir, si el usuario compró más de 3 artículos), se calcula el total multiplicando la cantidad de artículos por el precio unitario de $30. Este valor se almacena en la variable total.
 
-4. *else:*: Si la condición del if no se cumple (lo que significa que el usuario compró 3 artículos o menos), se ejecutará este bloque else.
+else:: Si la condición del if no se cumple (lo que significa que el usuario compró 3 artículos o menos), se ejecutará este bloque else.
 
-5. *total = cantidad * 45*: En este caso, se calcula el total multiplicando la cantidad de artículos por el precio unitario de $45 y se almacena en la variable total.
+total = cantidad * 45*: En este caso, se calcula el total multiplicando la cantidad de artículos por el precio unitario de $45 y se almacena en la variable total.
 
-6. *print("El total a pagar es: $" + str(total))*: Después de calcular el total, esta línea imprime el costo total a pagar. Se utiliza str(total) para convertir el valor numérico total en una cadena para poder concatenarlo con el mensaje.
+print("El total a pagar es: $" + str(total)): Después de calcular el total, esta línea imprime el costo total a pagar. Se utiliza str(total) para convertir el valor numérico total en una cadena para poder concatenarlo con el mensaje.
 
-7. *print("Saludos")*: Finalmente, se imprime un mensaje de despedida que dice "Saludos".
+print("Saludos"): Finalmente, se imprime un mensaje de despedida que dice "Saludos".
 
 Este programa utiliza una estructura condicional para aplicar diferentes precios según la cantidad de artículos y luego muestra el total a pagar al usuario. Es una forma efectiva de calcular costos basados en condiciones específicas.
 
@@ -762,18 +682,18 @@ if edad >=18:
 else:
     print("Vete a hacer la tarea")
 ```
-1. *edad = int(input("¿Cuantos años tienes?"))*: Se solicita la edad del usuario y se convierte en un número entero para su almacenamiento en la variable edad.
+edad = int(input("¿Cuantos años tienes?")): Se solicita la edad del usuario y se convierte en un número entero para su almacenamiento en la variable edad.
 
-2. *if edad >= 18:*: Se comprueba si la edad es mayor o igual a 18, ya que esto es la condición para poder ver la película.
+if edad >= 18:: Se comprueba si la edad es mayor o igual a 18, ya que esto es la condición para poder ver la película.
 
-3. *compra = int(input("¿Compraste la película?"))*: Se pregunta al usuario si ha comprado la película. La entrada se convierte en un número entero y se guarda en la variable compra.
+compra = int(input("¿Compraste la película?")): Se pregunta al usuario si ha comprado la película. La entrada se convierte en un número entero y se guarda en la variable compra.
 
-4. *if compra == 1:*: Se verifica si el valor de compra es igual a 1, lo que significa que el usuario compró la película.
+if compra == 1:: Se verifica si el valor de compra es igual a 1, lo que significa que el usuario compró la película.
 
-5. *print("Puede ver la película")*: Si la condición anterior se cumple (la persona es mayor de edad y ha comprado la película), se imprime un mensaje indicando que puede ver la película.
+print("Puede ver la película"): Si la condición anterior se cumple (la persona es mayor de edad y ha comprado la película), se imprime un mensaje indicando que puede ver la película.
 
-6. *else:*: Si la edad del usuario es menor que 18, se ejecutará este bloque else.
+else:: Si la edad del usuario es menor que 18, se ejecutará este bloque else.
 
-7. *print("Vete a hacer la tarea")*: Se imprime un mensaje indicando que el usuario debe ir a hacer la tarea, ya que no cumple con las condiciones para ver la película.
+print("Vete a hacer la tarea"): Se imprime un mensaje indicando que el usuario debe ir a hacer la tarea, ya que no cumple con las condiciones para ver la película.
 
 Este programa utiliza estructuras condicionales para validar la edad del usuario y la compra de la película, permitiéndole ver la película solo si las condiciones son satisfactorias.
