@@ -7,6 +7,8 @@ Ejercicio 1.1 Crea un programa que muestre tu nombre.
 # Elaborado por: Jazmin Macias Sabas 
 print("Hola , mi nombre es Jazmin Macias Sabas")
 ```
+"print("Hola , mi nombre es Jazmin Macias Sabas")":
+Esta línea utiliza la función "print" de Python, que se utiliza para imprimir texto en la pantalla. Dentro de los paréntesis, entre comillas, se encuentra el texto a imprimir, que en este caso es "Hola , mi nombre es Jazmin Macias Sabas". Cuando se ejecuta este programa, se mostrará este texto en la pantalla.
 
 ```
 Ejercicio 1.2 Realice un programa que solicite el nombre al usuario e imprima un mensaje personalizado con el nombre ingresado 
